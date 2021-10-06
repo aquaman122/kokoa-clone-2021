@@ -20,6 +20,8 @@
 @import "screen/chat.css";
 
 body {
+    overflow-x: hidden;
+    overflow-y: hideen;
     font-family: 'Open Sans', sans-serif;
     color: #2e363e;
 }
