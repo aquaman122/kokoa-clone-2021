@@ -10,6 +10,8 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+@import "components/background-img.css";
 
 /* Screens */
 @import "screen/login.css";
@@ -21,9 +23,11 @@
 
 body {
     overflow-x: hidden;
-    overflow-y: hideen;
+    overflow-y: hidden;
     font-family: 'Open Sans', sans-serif;
     color: #2e363e;
+    max-width: 520px;
+    background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d2d9f93.png");
 }
 
 .main-screen {
